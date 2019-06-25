@@ -9,4 +9,4 @@ You can also run Tetris-Game in Gitpod, a free online dev environment for GitHub
 
 If you're intersted in a paid subscription with GitPod use the coupon code: TECHWITHTIM2FQBMX
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/techwithtim/Tetris-Game/edit/master/main.py)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/techwithtim/Tetris-Game/blob/master/main.py)
