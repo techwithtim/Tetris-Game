@@ -247,6 +247,7 @@ def draw_next_shape(shape, surface):
         for j, column in enumerate(row):
             if column == '0':
                 pygame.draw.rect(surface, shape.color, (sx + j*30, sy + i*30, 30, 30), 0)
+                pygame.draw.rect(surface, (128,128,128), (sx + j*30, sy + i*30, 30, 30), 1)
 
     surface.blit(label, (sx + 10, sy- 30))
 
