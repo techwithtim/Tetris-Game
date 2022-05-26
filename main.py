@@ -214,7 +214,7 @@ def draw_grid(surface, row, col):
 def clear_rows(grid, locked):
     # need to see if row is clear the shift every other row above down one
 
-    inc = 0
+    inc, ind = 0, 0
     for i in range(len(grid)-1,-1,-1):
         row = grid[i]
         if (0, 0, 0) not in row:
