@@ -322,7 +322,7 @@ def main():
                     current_piece.x += 1
                     if not valid_space(current_piece, grid):
                         current_piece.x -= 1
-                elif event.key == pygame.K_UP:
+                elif event.key == pygame.K_SPACE:
                     # rotate shape
                     current_piece.rotation = current_piece.rotation + 1 % len(current_piece.shape)
                     if not valid_space(current_piece, grid):
